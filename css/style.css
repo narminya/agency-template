@@ -1,0 +1,293 @@
+body  {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+width: 100%;
+height: 900px; 
+background-color: gray; 
+background-image: url(http://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    position: relative;
+}
+
+
+.menu {
+    width: 100%;
+    height: 54px;
+    top: 0;
+    padding-left:350px;
+    background-color:#212529;
+    position: fixed;
+    z-index: 1020;
+    
+}
+
+.start {
+    padding: 7px;
+    display: inline-block;
+    color: orange;
+    font-size: 1.75em;
+    font-family: 'Kaushan Script';
+    transition-duration: 2s;}
+    
+
+
+    .start:hover {
+        color: rgb(196, 100, 10);
+
+    }
+
+
+
+.menu-items {
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+ul {
+    margin: 0;
+}
+ul li {
+    float: left; 
+    padding: 17px 13px;
+    list-style-type: none;}
+
+ ul li a { 
+     font-size: 16px;
+     font-weight: 400;
+     text-decoration: none;
+    font-family: 'montserrat';
+    color: cornsilk;
+    letter-spacing: 1px;
+    transition-property: color;
+    transition-duration: .2s;
+  } 
+
+
+ ul li a:hover { 
+    color: rgb(221, 221, 39);
+  } 
+
+
+.intro1 {
+    top: 33%;
+    margin: 0 25px;
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'droid serif';
+    font-style: italic;
+    color: #ffffff;
+}
+
+.intro2 {
+    left: 22%;
+    font-size: 75px;
+    top: 40%;
+    font-family: 'Montserrat';
+    position: absolute;
+    font-weight: 700;
+    color: #ffffff;
+}
+.btn1{
+    position: absolute;
+    display: inline-block;
+    background-color: #fed136;
+    width: 144px;
+    height: 28px;
+    top: 53%;
+    left: 42%;
+    border-radius: .25rem;
+
+
+}
+
+.btn-text { 
+     font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+  /*second page*/
+
+.services {
+    width: 100%;
+    height: 471px;
+    padding: 100px 0;
+    background-color:#fff;
+    position: relative;
+}
+.section-header{
+    position: absolute;
+    MARGIN: 0;
+    top:  85px;
+    left: 43%;
+    font-size: 40px;
+    color: #343a40;;
+}
+
+.min{
+    margin: 0;
+    position: absolute;
+    top:  21%;
+    left: 40%;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Droid Serif'
+}
+
+.ser-container{
+    position: absolute;
+    top: 28%;
+    height: 320px;
+    width: 100%;
+    background-color:#fff;
+}
+
+.media {
+    display: inline-block;
+    height: 320px;
+    width: 350px;
+    border: 1px solid black;
+    font-family: 'Font Awesome Pro 5';
+}
+
+.media1 {
+    margin-left: 250px;
+}
+
+/*portfolio*/
+
+.portfolio {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.s2 {
+    top: 1px;
+}
+
+.min2 { 
+    top: 7%!important;
+    z-index: 2;
+
+}
+
+.product {
+    width: 350px;
+    height: 262px;
+    position: absolute;
+    left: 14%;
+    top: 120px;
+    display: inline-block;
+
+}
+
+.product img{
+    width: 100%;
+    
+}
+.product .img{
+    position: relative;
+}
+
+.product-info{
+    padding: 20px;
+}
+
+.product-info>a{
+    color: rgb(29, 28, 28);
+    width: 50%;
+    display: inline-block;
+    padding-left: 120px;
+
+    
+}
+.text-inside { 
+    font-family: 'montserrat';
+    font-size: 1.5rem;
+    margin-top: 2px;
+    
+
+
+}
+.text-inside-2 {
+    margin-top: -19%;
+    padding-left: 0px;
+    font-family: 'droid serif';
+    font-style: italic;
+    color: #6c757d;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(211, 163, 58);
+    opacity: 12%;
+    transition: all .6s;
+}
+
+.product:hover .overlay{
+    opacity: 60%;
+}
+.plus{
+    position: absolute;
+    top: 50%;
+    display: none;
+    left: 50%;
+    color:orange;    
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+}
+
+.product:hover .plus{
+    display: block;
+
+}
+ 
+.product2 {
+    left: 40%;
+}
+
+.product3 {
+    left: 66%
+}
+
+.product4 {
+    top: 56%;
+}
+
+.product5 {
+    top: 56%;
+    left: 40%;
+}
+
+.product6 {
+    top: 56%;
+    left: 66%;
+}
+
+/*team*/
+
+.team {
+    width: 100%;
+    height: 100vh;
+    
+}
